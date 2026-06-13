@@ -1,0 +1,143 @@
+{
+  "profile": {
+    "name": "Maria Fernanda Dias Faleiro",
+    "headline": "Product Designer | UX/UI Designer | Social Media",
+    "location": "Caldas Novas, Brazil",
+    "behanceUrl": "https://www.behance.net/mariafdias6",
+    "bio": "UX/UI designer em transição da área de desenvolvimento. Cursando Tecnologia da Informação, com experiência prévia como estagiária fullstack, desenvolvendo habilidades de comunicação, colaboração e resolução de problemas enquanto descobre sua paixão por criar experiências digitais.",
+    "availability": "Available Fulltime",
+    "memberSince": "2022-01-06",
+    "stats": {
+      "projectViews": 66,
+      "appreciations": 3,
+      "followers": 4,
+      "following": 9
+    }
+  },
+  "projects": [
+    {
+      "id": "echo-music-app",
+      "title": "Echo Music App",
+      "url": "https://www.behance.net/gallery/244368837/Echo-Music-App",
+      "description": "Echo é um aplicativo de música mobile criado como projeto de UX/UI Design, focado em oferecer uma experiência intuitiva, moderna e visualmente envolvente, facilitando a descoberta e o consumo de músicas. O app foi desenvolvido como trabalho de um curso de UX/UI Design, com o objetivo de proporcionar uma experiência de usuário moderna, intuitiva e envolvente, simplificando o acesso à música e melhorando a navegação por meio de uma interface visualmente atraente.",
+      "shortDescription": "Aplicativo de música mobile com foco em uma experiência moderna, intuitiva e visualmente envolvente, simplificando a descoberta e o consumo de músicas.",
+      "category": "Mobile App",
+      "tags": ["music", "design", "ux/ui", "figma", "mobile app", "aplicativo", "mobile", "user interface", "echo"],
+      "tools": ["Figma", "Miro", "Unsplash", "Pexels"],
+      "creativeFields": ["UI/UX", "Mobile Design", "Interaction Design"],
+      "publishedDate": "2025-11-17",
+      "stats": {
+        "appreciations": 11,
+        "views": 1717,
+        "comments": 0
+      },
+      "coverImage": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7e57bd244368837.6995eb5da3d2a.png",
+      "images": [
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7e57bd244368837.6995eb5da3d2a.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/d0fb50244368837.6995eb5da65b5.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/5c5227244368837.6995eb5da5f15.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/1419b4244368837.6995eb5da4d04.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/38d044244368837.6995eb5da5a1a.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/a43ad4244368837.6995eb5da45d2.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/feb261244368837.6995eb5da54cc.png"
+      ],
+      "highlights": [
+        "Projeto de curso de UX/UI Design",
+        "Interface moderna e intuitiva",
+        "Navegação e descoberta de músicas aprimoradas",
+        "Telas de UI mobile desenhadas no Figma",
+        "Planejamento e ideação com Miro"
+      ]
+    },
+    {
+      "id": "landing-page-qcria-pet-center",
+      "title": "Landing Page QCria Pet Center",
+      "url": "https://www.behance.net/gallery/242792251/Landing-Page-QCria-Pet-Center",
+      "description": "QCria Pet Center é um projeto de landing page desenvolvido para fortalecer a presença digital de um pet shop. O foco do projeto é oferecer uma interface intuitiva, amigável e visualmente atraente, reforçando a identidade da marca, melhorando a experiência do usuário e preparando o caminho para uma futura expansão para e-commerce.",
+      "shortDescription": "Landing page criada para fortalecer a presença digital de um pet shop, com interface intuitiva e amigável, reforçando a identidade da marca.",
+      "category": "Landing Page",
+      "tags": ["ui/ux", "figma", "ui design", "landing page", "web design", "design"],
+      "tools": ["Figma"],
+      "creativeFields": ["UI/UX", "Web Design"],
+      "publishedDate": "2026-01-23",
+      "stats": {
+        "appreciations": 11,
+        "views": 2222,
+        "comments": 0
+      },
+      "coverImage": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/990c66242792251.6973deaaefc5b.png",
+      "images": [
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/220489242792251.6973deaaf19d0.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/5643cf242792251.6973deaaf0579.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/0778ab242792251.6973deaaef36c.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/3d9cef242792251.6973deaaf11d5.png"
+      ],
+      "highlights": [
+        "Fortalecimento da presença online do pet shop",
+        "Interface intuitiva e amigável",
+        "Reforço da identidade da marca",
+        "Melhoria da experiência do usuário",
+        "Preparação para futura expansão para e-commerce"
+      ]
+    },
+    {
+      "id": "landing-page-asimov",
+      "title": "Landing Page",
+      "url": "https://www.behance.net/gallery/240090659/Landing-Page",
+      "description": "Esse projeto foi desenvolvido como exercício de um teste prático para a Asimov Academy. Durante o processo, pude explorar novas soluções, testar ideias e colocar meus conhecimentos em prática. Foi uma experiência rica, onde aprendi bastante e fortaleci minhas capacidades profissionais.",
+      "shortDescription": "Landing page criada no Figma como exercício de teste prático para a Asimov Academy.",
+      "category": "Landing Page",
+      "tags": ["ui/ux", "figma", "ui design", "landing page", "web design", "design"],
+      "tools": ["Figma"],
+      "creativeFields": ["UI/UX", "Graphic Design", "Interaction Design", "Web Design"],
+      "publishedDate": "2025-12-09",
+      "stats": {
+        "appreciations": 1,
+        "views": 1111,
+        "comments": 0
+      },
+      "coverImage": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/d3a424240090659.693771e8a14d0.jpg",
+      "images": [
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/d3a424240090659.693771e8a14d0.jpg"
+      ],
+      "highlights": [
+        "Web design de landing page",
+        "Desenvolvida no Figma",
+        "Criada como teste prático para a Asimov Academy",
+        "Exploração de novas soluções e ideias"
+      ]
+    },
+    {
+      "id": "aplicativo-veganature",
+      "title": "Aplicativo Veganature",
+      "url": "https://www.behance.net/gallery/238759271/Aplicativo-Veganature",
+      "description": "O aplicativo VEGANATURE foi desenvolvido e idealizado como meu primeiro projeto de portfólio durante um curso de Figma. Trata-se de um e-commerce de produtos naturais e veganos do universo da maquiagem, o que inspirou o conceito e o nome VEGANATURE.",
+      "shortDescription": "Conceito de aplicativo de e-commerce para produtos de maquiagem naturais e veganos, criado como primeiro projeto de portfólio durante um curso de Figma.",
+      "category": "Mobile App",
+      "tags": ["aplicativo", "ui design", "ui/ux", "figma", "app", "vegan", "interface", "mobile app"],
+      "tools": ["Figma"],
+      "creativeFields": ["Interaction Design", "Web Design", "App Design"],
+      "publishedDate": "2025-11-17",
+      "stats": {
+        "appreciations": 0,
+        "views": 1616,
+        "comments": 0
+      },
+      "coverImage": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/af4cc4238759271.691b62c827586.png",
+      "images": [
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/46fa4e238759271.691b62c8296c5.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/cc2f22238759271.691b62c829e7c.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/64b100238759271.691b62c82a5cb.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/1be738238759271.691b62c827e54.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/cf5b06238759271.691b62c828e1b.png",
+        "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/6627be238759271.691b62c828753.png"
+      ],
+      "highlights": [
+        "Conceito de app de e-commerce para maquiagem natural e vegana",
+        "Primeiro projeto de portfólio criado durante um curso de Figma",
+        "Desenhado inteiramente no Figma",
+        "UI/UX mobile com interaction design"
+      ]
+    }
+  ]
+}

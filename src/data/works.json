@@ -1,0 +1,149 @@
+{
+  "works": [
+    {
+      "id": "producao-visual",
+      "slug": "producao-visual",
+      "title": "Stories — agenda e CTA",
+      "client": "Beleza e estética",
+      "category": "social-media",
+      "layout": "carousel",
+      "coverImage": "/works/producao-visual/b25838fa-7045-4beb-994b-b85193649f4b.svg",
+      "images": [
+        "/works/producao-visual/b25838fa-7045-4beb-994b-b85193649f4b.svg",
+        "/works/producao-visual/47a3db95-06e0-4432-a379-07ac0254b699.svg"
+      ],
+      "description": "Sequência de stories com tipografia editorial, destaque de serviço e chamada para agendamento — pensada para conversão no Instagram.",
+      "shortDescription": "Stories com CTA de agendamento para negócios de beleza.",
+      "tags": ["stories", "beleza", "cta"],
+      "year": 2025,
+      "featured": true
+    },
+    {
+      "id": "stories-promo-verao",
+      "slug": "stories-promo-verao",
+      "title": "Stories de promoção de verão",
+      "client": "Loja Sol & Mar",
+      "category": "social-media",
+      "layout": "carousel",
+      "coverImage": "/works/stories-promo-verao/65125d2b-2a56-4825-b64f-f05670ad5a3f.svg",
+      "images": [
+        "/works/stories-promo-verao/65125d2b-2a56-4825-b64f-f05670ad5a3f.svg",
+        "/works/stories-promo-verao/126976cb-eaef-4196-8cd4-97fdabbbbc5e.svg",
+        "/works/stories-promo-verao/e5b28d4a-7e1c-4a7d-8849-27dd2368702b.svg",
+        "/works/stories-promo-verao/695d3bec-79b1-44e5-ba13-00f64b0dacdc.svg",
+        "/works/stories-promo-verao/0449cca2-f843-4464-9588-ebc663ce4ab6.svg"
+      ],
+      "description": "Campanha de stories para a temporada de verão, com paleta quente, ofertas em destaque e chamadas para visitar a loja.",
+      "shortDescription": "Campanha de stories sazonal para varejo de moda praia.",
+      "tags": ["stories", "promo", "verão"],
+      "year": 2025,
+      "featured": true
+    },
+    {
+      "id": "landing-servicos-locais",
+      "slug": "landing-servicos-locais",
+      "title": "Landing de serviços locais",
+      "client": "Auto Elétrica Centro",
+      "category": "landing-page",
+      "layout": "stack",
+      "coverImage": "/works/landing-servicos-locais/84105c5d-6c01-4c8f-9215-a9c206e606df.svg",
+      "images": [
+        "/works/landing-servicos-locais/84105c5d-6c01-4c8f-9215-a9c206e606df.svg",
+        "/works/landing-servicos-locais/a5288c37-a52b-4aa2-8396-301560018af9.svg",
+        "/works/landing-servicos-locais/051e5504-62e3-4c29-b05b-358e119f1dd4.svg",
+        "/works/landing-servicos-locais/135a7781-00f1-437d-8b99-b8519903b441.svg"
+      ],
+      "description": "Página de captação para serviço local, com seções de prova social, área de cobertura e botão de WhatsApp em destaque.",
+      "shortDescription": "Landing page de conversão para serviço de bairro.",
+      "tags": ["landing", "serviços", "whatsapp"],
+      "year": 2024,
+      "featured": false
+    },
+    {
+      "id": "catalogo-padaria-bairro",
+      "slug": "catalogo-padaria-bairro",
+      "title": "Catálogo digital",
+      "client": "Padaria do Bairro",
+      "category": "catalogo",
+      "layout": "grid",
+      "coverImage": "/works/catalogo-padaria-bairro/8f619929-e893-43d1-ad9b-c812d7247948.svg",
+      "images": [
+        "/works/catalogo-padaria-bairro/8f619929-e893-43d1-ad9b-c812d7247948.svg",
+        "/works/catalogo-padaria-bairro/8cb847d3-413e-40a4-bea1-343f9aa1988e.svg",
+        "/works/catalogo-padaria-bairro/9f094f00-9f64-4e8b-ac3a-bca86220ccee.svg",
+        "/works/catalogo-padaria-bairro/54bcd9f1-ba8b-4b6b-ba74-3394d43b6800.svg",
+        "/works/catalogo-padaria-bairro/37870eca-f616-4a5e-aa04-707cc6e653c9.svg",
+        "/works/catalogo-padaria-bairro/e54b7ab7-31d6-447d-a2c2-59c53e6f50bd.svg"
+      ],
+      "description": "Catálogo de produtos para divulgação no feed e no WhatsApp, com fotos organizadas, preços e identidade consistente.",
+      "shortDescription": "Catálogo digital de produtos para padaria de bairro.",
+      "tags": ["catálogo", "produtos", "cardápio"],
+      "year": 2024,
+      "featured": false
+    },
+    {
+      "id": "clinica-odonto-vida",
+      "slug": "clinica-odonto-vida",
+      "title": "Identidade para clínica",
+      "client": "Clínica Odonto Vida",
+      "category": "identidade-visual",
+      "layout": "grid",
+      "coverImage": "/works/clinica-odonto-vida/2dcd0d59-9d4d-4787-8fa2-03a0eb1aeea4.svg",
+      "images": [
+        "/works/clinica-odonto-vida/2dcd0d59-9d4d-4787-8fa2-03a0eb1aeea4.svg",
+        "/works/clinica-odonto-vida/cec2260b-363f-4509-9434-99205d2ebaaf.svg",
+        "/works/clinica-odonto-vida/2c1a8632-d050-4fb9-b4d3-b89fcde433a4.svg",
+        "/works/clinica-odonto-vida/98a87139-2340-4138-a1eb-90966782a65a.svg"
+      ],
+      "description": "Sistema visual para clínica odontológica: paleta, aplicações de marca e templates de posts informativos.",
+      "shortDescription": "Identidade visual e templates para clínica odontológica.",
+      "tags": ["identidade", "saúde", "marca"],
+      "year": 2024,
+      "featured": false
+    },
+    {
+      "id": "restaurante-sabor-praia",
+      "slug": "restaurante-sabor-praia",
+      "title": "Social media gastronômico",
+      "client": "Restaurante Sabor da Praia",
+      "category": "social-media",
+      "layout": "carousel",
+      "coverImage": "/works/restaurante-sabor-praia/93f8ec26-7e5d-4add-80f1-cfc4832591f5.svg",
+      "images": [
+        "/works/restaurante-sabor-praia/93f8ec26-7e5d-4add-80f1-cfc4832591f5.svg",
+        "/works/restaurante-sabor-praia/5340f74a-1b02-4f4b-a6dd-37a54592ea54.svg",
+        "/works/restaurante-sabor-praia/2ec12a39-8b4c-4d11-a9c4-c7f68202d9b0.svg",
+        "/works/restaurante-sabor-praia/d486cebd-eea8-4230-a134-fc1b84f6e9d6.svg",
+        "/works/restaurante-sabor-praia/069aacbe-6298-4fc2-a500-aed97a62b794.svg"
+      ],
+      "description": "Linha de posts para restaurante com fotos de pratos, destaque de combos e chamadas para reserva e delivery.",
+      "shortDescription": "Posts de feed para restaurante à beira-mar.",
+      "tags": ["social", "gastronomia", "feed"],
+      "year": 2025,
+      "featured": false
+    },
+    {
+      "id": "boutique-estilo-urbano",
+      "slug": "boutique-estilo-urbano",
+      "title": "Identidade de moda",
+      "client": "Boutique Estilo Urbano",
+      "category": "identidade-visual",
+      "layout": "grid",
+      "coverImage": "/works/boutique-estilo-urbano/a488c3cb-5c39-4303-b4c0-b6547c0768d9.svg",
+      "images": [
+        "/works/boutique-estilo-urbano/a488c3cb-5c39-4303-b4c0-b6547c0768d9.svg",
+        "/works/boutique-estilo-urbano/d9698438-639a-4eda-b69c-96260318e8db.svg",
+        "/works/boutique-estilo-urbano/f5196db4-a8b6-4b39-a2b8-f2da1f64cec1.svg",
+        "/works/boutique-estilo-urbano/eca8acbc-828f-4723-8ab5-e92ca122ff81.svg",
+        "/works/boutique-estilo-urbano/19a94d64-f586-419a-8b86-226d104464cb.svg",
+        "/works/boutique-estilo-urbano/95e9e4d9-40e4-4f7f-8513-6851be5581da.svg",
+        "/works/boutique-estilo-urbano/b509fd0f-cca6-4921-84c0-dbb611dbbe80.svg"
+      ],
+      "description": "Identidade e templates de social media para boutique de moda urbana, com tipografia marcante e grid editorial.",
+      "shortDescription": "Identidade visual e posts para boutique de moda.",
+      "tags": ["identidade", "moda", "editorial"],
+      "year": 2025,
+      "featured": false
+    }
+  ]
+}

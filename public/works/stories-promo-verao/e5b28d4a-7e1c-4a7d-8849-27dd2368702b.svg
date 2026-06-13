@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1400" viewBox="0 0 800 1400" role="img" aria-label="Loja Sol &amp; Mar">
+  <rect width="800" height="1400" fill="#eeece7"/>
+  <rect width="800" height="1400" fill="#edfce9" opacity="0.4"/>
+  <rect x="32" y="32" width="736" height="1336" fill="none" stroke="#d9d9dd" stroke-width="2" rx="8"/>
+  <text x="48" y="72" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#75758a" letter-spacing="1">IMAGEM</text>
+  <text x="48" y="108" font-family="ui-sans-serif, system-ui, sans-serif" font-size="24" fill="#17171c">Loja Sol &amp; Mar</text>
+  <text x="48" y="142" font-family="ui-monospace, monospace" font-size="12" fill="#ff7759">02.webp</text>
+  <text x="48" y="1352" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#93939f">Substitua por .webp ou .jpg com o mesmo nome</text>
+</svg>

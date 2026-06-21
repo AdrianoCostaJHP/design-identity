@@ -86,7 +86,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
       </a>
       <div className="p-6 md:p-8">
         <div className="mb-3 flex flex-wrap items-center gap-2">
-          <span className="inline-block rounded-sm border border-coral px-2.5 py-1.5 font-mono text-xs uppercase tracking-[0.28px] text-coral">
+          <span className="inline-block rounded-sm border border-accent-gold bg-accent-gold/10 px-2.5 py-1.5 font-mono text-xs uppercase tracking-[0.28px] text-primary-dark">
             {project.category}
           </span>
           <span className="font-mono text-xs uppercase tracking-[0.28px] text-muted">{publishedYear}</span>
@@ -112,7 +112,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             href={project.url}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-1 text-sm font-medium text-action-blue no-underline"
+            className="inline-flex items-center gap-1 text-sm font-medium text-primary no-underline transition-colors hover:text-accent-gold"
             whileHover={reduceMotion ? undefined : { x: 4 }}
             transition={{ duration: 0.25, ease }}
           >

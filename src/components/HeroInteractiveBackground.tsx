@@ -62,7 +62,7 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
       >
         <defs>
           <pattern id="hero-grid" width="48" height="48" patternUnits="userSpaceOnUse">
-            <path d="M48 0H0V48" stroke="#d9d9dd" strokeWidth="0.6" opacity="0.45" />
+            <path d="M48 0H0V48" stroke="#e5e1db" strokeWidth="0.6" opacity="0.55" />
           </pattern>
         </defs>
         <rect width="1440" height="900" fill="url(#hero-grid)" opacity="0.35" />
@@ -81,8 +81,8 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
           animate={reduceMotion ? undefined : { rotate: [0, 6, 0] }}
           transition={{ duration: 18, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <circle cx="210" cy="210" r="180" stroke="#003c33" strokeWidth="1.2" opacity="0.14" />
-          <circle cx="210" cy="210" r="120" stroke="#003c33" strokeWidth="0.8" opacity="0.1" />
+          <circle cx="210" cy="210" r="180" stroke="#202c2d" strokeWidth="1.2" opacity="0.14" />
+          <circle cx="210" cy="210" r="120" stroke="#202c2d" strokeWidth="0.8" opacity="0.1" />
         </motion.svg>
       </ParallaxShape>
 
@@ -94,7 +94,7 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
         className="absolute left-[-6%] top-[18%] h-48 w-48 md:left-[2%]"
       >
         <motion.div
-          className="h-full w-full rounded-sm border border-deep-green/20 bg-pale-green/50"
+          className="h-full w-full rounded-sm border border-primary-dark/15 bg-primary-light/25"
           animate={reduceMotion ? undefined : { rotate: [12, 18, 12], y: [0, -12, 0] }}
           transition={{ duration: 14, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -119,12 +119,12 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
             width="80"
             height="80"
             rx="8"
-            stroke="#ff7759"
+            stroke="#e6c97a"
             strokeWidth="1.2"
             opacity="0.35"
           />
-          <line x1="56" y1="28" x2="56" y2="84" stroke="#ff7759" strokeWidth="0.8" opacity="0.25" />
-          <line x1="28" y1="56" x2="84" y2="56" stroke="#ff7759" strokeWidth="0.8" opacity="0.25" />
+          <line x1="56" y1="28" x2="56" y2="84" stroke="#e6c97a" strokeWidth="0.8" opacity="0.25" />
+          <line x1="28" y1="56" x2="84" y2="56" stroke="#e6c97a" strokeWidth="0.8" opacity="0.25" />
         </motion.svg>
       </ParallaxShape>
 
@@ -143,12 +143,12 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
         >
           <path
             d="M32 200 A120 120 0 0 1 224 200"
-            stroke="#17171c"
+            stroke="#202c2d"
             strokeWidth="1"
             opacity="0.08"
           />
-          <line x1="48" y1="200" x2="208" y2="200" stroke="#d9d9dd" strokeWidth="0.8" />
-          <line x1="128" y1="80" x2="128" y2="200" stroke="#d9d9dd" strokeWidth="0.8" opacity="0.6" />
+          <line x1="48" y1="200" x2="208" y2="200" stroke="#e5e1db" strokeWidth="0.8" />
+          <line x1="128" y1="80" x2="128" y2="200" stroke="#e5e1db" strokeWidth="0.8" opacity="0.7" />
         </motion.svg>
       </ParallaxShape>
 
@@ -160,7 +160,7 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
         className="absolute bottom-[8%] right-[6%] h-36 w-36"
       >
         <motion.div
-          className="h-full w-full rounded-full border border-coral/30 bg-coral/8"
+          className="h-full w-full rounded-full border border-accent-gold/30 bg-accent-gold/8"
           animate={reduceMotion ? undefined : { scale: [1, 1.06, 1] }}
           transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
         />
@@ -187,7 +187,7 @@ function HeroBackground({ pointerX, pointerY }: HeroBackgroundProps) {
               y1="12"
               x2={x + 16}
               y2="12"
-              stroke="#75758a"
+              stroke="#767e7d"
               strokeWidth="1"
               opacity="0.35"
               strokeLinecap="round"

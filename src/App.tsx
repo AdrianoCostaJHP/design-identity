@@ -41,7 +41,7 @@ function App() {
   const waLink = whatsappHref(site.whatsappNumber, site.whatsappMessage)
 
   const btnPrimary =
-    'inline-flex items-center justify-center gap-2 rounded-[32px] bg-primary px-6 py-3 text-sm font-medium leading-[1.71] text-on-primary transition-opacity hover:opacity-88'
+    'inline-flex items-center justify-center gap-2 rounded-[32px] bg-accent-gold px-6 py-3 text-sm font-medium leading-[1.71] text-on-primary transition-opacity hover:opacity-88'
   const btnSecondary =
     'inline-flex items-center justify-center gap-2 bg-transparent px-0 py-2 text-sm font-normal text-ink underline underline-offset-4 transition-opacity hover:opacity-88'
 
@@ -106,7 +106,7 @@ function App() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden rounded-[22px] bg-soft-stone/80 backdrop-blur-sm">
                   <div className="absolute inset-0 bg-linear-to-br from-pale-green via-soft-stone to-[#e8e4dc]" />
-                  <div className="absolute inset-x-4 bottom-4 rounded-sm bg-primary p-3 px-4 text-xs leading-snug text-on-dark">
+                  <div className="absolute inset-x-4 bottom-4 rounded-sm bg-primary-dark p-3 px-4 text-xs leading-snug text-on-dark">
                     <strong className="mb-1 block text-sm font-medium">Feed + stories</strong>
                     Conteúdo e design alinhados à sua marca
                   </div>
@@ -162,7 +162,7 @@ function App() {
                   className={serviceColumnClass(index, services.length)}
                 >
                   <Icon />
-                  <h3 className="mb-2 text-2xl font-normal leading-snug text-ink">{service.title}</h3>
+                  <h3 className="mb-2 font-display text-2xl font-normal leading-snug text-ink">{service.title}</h3>
                   <p className="m-0 text-body-muted">{service.description}</p>
                 </StaggerItem>
               )
@@ -175,7 +175,7 @@ function App() {
           id="producao"
           aria-labelledby="work-gallery-title"
         >
-          <div className="mx-6 rounded-[22px] bg-deep-green py-20 text-on-dark max-md:mx-0 max-md:rounded-none">
+          <div className="mx-6 rounded-[22px] bg-primary-dark py-20 text-on-dark max-md:mx-0 max-md:rounded-none">
             <div className={container}>
               <WorkGallery
                 variant="dark"
@@ -245,12 +245,12 @@ function App() {
         </ScrollReveal>
       </main>
 
-      <footer className="bg-primary py-8 text-on-dark">
+      <footer className="bg-primary-dark py-8 text-on-dark">
         <div className={`${container} flex flex-wrap items-center justify-between gap-4 text-xs`}>
-          <p className="m-0 text-muted">
+          <p className="m-0 text-on-dark/65">
             <strong className="font-medium text-on-dark">{site.name}</strong> · {footer.note}
           </p>
-          <p className="m-0 text-muted">{footer.copyright}</p>
+          <p className="m-0 text-on-dark/65">{footer.copyright}</p>
         </div>
       </footer>
     </div>

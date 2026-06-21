@@ -1,25 +1,36 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-primary: #17171c;
-  --color-ink: #212121;
-  --color-deep-green: #003c33;
+  /* design_mf.md — cores de destaque */
+  --color-primary-dark: #202c2d;
+  --color-primary-light: #d5cec4;
+  --color-accent-gold: #e6c97a;
+  --color-text-main: #000000;
+  --color-text-muted: #767e7d;
+  --color-bg-alt: #b8b3ac;
+
+  /* superfícies claras (fundo original, alto contraste) */
   --color-canvas: #ffffff;
   --color-soft-stone: #eeece7;
-  --color-pale-green: #edfce9;
-  --color-hairline: #d9d9dd;
-  --color-muted: #93939f;
-  --color-slate: #75758a;
-  --color-body-muted: #616161;
-  --color-action-blue: #1863dc;
-  --color-focus-blue: #4c6ee6;
-  --color-coral: #ff7759;
-  --color-on-primary: #ffffff;
+  --color-pale-green: #f5f2ed;
+  --color-hairline: #e5e1db;
+
+  /* aliases semânticos */
+  --color-primary: #202c2d;
+  --color-ink: #000000;
+  --color-deep-green: #202c2d;
+  --color-muted: #767e7d;
+  --color-slate: #767e7d;
+  --color-body-muted: #767e7d;
+  --color-action-blue: #202c2d;
+  --color-focus-blue: #202c2d;
+  --color-coral: #e6c97a;
+  --color-on-primary: #202c2d;
   --color-on-dark: #ffffff;
 
-  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
-  --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
-  --font-mono: ui-monospace, 'Cascadia Code', monospace;
+  --font-display: 'Playfair Display', ui-serif, Georgia, serif;
+  --font-body: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
@@ -39,7 +50,7 @@
     font-family: var(--font-body);
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-ink);
+    color: var(--color-text-main);
     background: var(--color-canvas);
   }
 

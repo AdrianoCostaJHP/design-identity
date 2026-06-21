@@ -56,14 +56,14 @@ function WorkCarouselSlide({
         </div>
         <div className="flex flex-1 flex-col p-5">
           <div className="mb-2 flex flex-wrap items-center gap-2">
-            <span className="inline-block rounded-sm border border-coral px-2 py-1 font-mono text-xs uppercase tracking-[0.28px] text-coral">
+            <span className="inline-block rounded-sm border border-accent-gold bg-accent-gold/10 px-2 py-1 font-mono text-xs uppercase tracking-[0.28px] text-primary-dark">
               {workCategoryLabels[work.category]}
             </span>
             <span className="font-mono text-xs uppercase tracking-[0.28px] text-muted">{work.year}</span>
           </div>
           <h3 className="mb-2 mt-0 text-lg leading-snug text-ink">{work.title}</h3>
           <p className="m-0 line-clamp-2 text-sm text-body-muted">{work.shortDescription}</p>
-          <p className="mt-auto pt-4 text-sm font-medium text-action-blue">Ver projeto →</p>
+          <p className="mt-auto pt-4 text-sm font-medium text-primary transition-colors group-hover:text-accent-gold">Ver projeto →</p>
         </div>
       </button>
     </article>

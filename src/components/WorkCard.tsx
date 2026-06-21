@@ -84,7 +84,7 @@ export function WorkCard({ work, onOpen }: WorkCardProps) {
         </div>
         <div className="p-6 md:p-8">
           <div className="mb-3 flex flex-wrap items-center gap-2">
-            <span className="inline-block rounded-sm border border-coral px-2.5 py-1.5 font-mono text-xs uppercase tracking-[0.28px] text-coral">
+            <span className="inline-block rounded-sm border border-accent-gold bg-accent-gold/10 px-2.5 py-1.5 font-mono text-xs uppercase tracking-[0.28px] text-primary-dark">
               {workCategoryLabels[work.category]}
             </span>
             <span className="font-mono text-xs uppercase tracking-[0.28px] text-muted">{work.year}</span>
@@ -104,7 +104,7 @@ export function WorkCard({ work, onOpen }: WorkCardProps) {
               ))}
             </ul>
           )}
-          <p className="mt-5 mb-0 text-sm font-medium text-action-blue">Ver projeto →</p>
+          <p className="mt-5 mb-0 text-sm font-medium text-primary transition-colors group-hover:text-accent-gold">Ver projeto →</p>
         </div>
       </button>
     </motion.article>

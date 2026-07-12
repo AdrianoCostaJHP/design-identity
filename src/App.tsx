@@ -195,7 +195,7 @@ function App() {
         <ScrollReveal
           as="section"
           id="contato"
-          className="py-20 text-center"
+          className="border-t border-hairline py-20 text-center"
           aria-labelledby="contact-title"
         >
           <div className={container}>

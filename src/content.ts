@@ -13,21 +13,18 @@ export const site = {
 
 export const navLinks = [
   { label: 'Serviços', href: '#servicos' },
-  { label: 'Produção', href: '#producao' },
-  { label: 'Trabalhos', href: '#trabalhos' },
+  { label: 'Portfólio', href: '#portfolio' },
+  { label: 'Projetos', href: '#projetos' },
+  { label: 'Dúvidas', href: '#duvidas' },
+  { label: 'Sobre', href: '#sobre' },
   { label: 'Contato', href: '#contato' },
 ] as const
 
 export const hero = {
   headline: 'Presença digital que o seu negócio local merece.',
   lead: 'Estratégia, conteúdo e design para restaurantes, clínicas, lojas e serviços da região — com métricas claras e entrega consistente.',
-  primaryCta: 'Ver produção',
+  primaryCta: 'Ver portfólio',
   secondaryCta: 'Falar no WhatsApp',
-} as const
-
-export const trust = {
-  label: 'Atendo negócios como',
-  items: ['Restaurantes', 'Clínicas', 'Lojas', 'Serviços locais'],
 } as const
 
 export const services = [
@@ -52,12 +49,68 @@ export const services = [
 ] as const
 
 export const portfolio = {
-  worksLabel: 'Produção visual',
-  worksTitle: 'Posts, identidades e catálogos',
-  worksLead:
-    'Peças visuais para redes sociais e materiais digitais — deslize o carrossel e clique para ampliar.',
-  allLabel: 'Portfólio',
+  label: 'Portfólio',
+  title: 'Posts, identidades e catálogos',
+  lead: 'Uma seleção de entregas que já realizei para clientes — exemplos do que posso fazer pelo seu negócio.',
+  allLabel: 'UX/UI Design',
   allTitle: 'Projetos de design',
+} as const
+
+export const about = {
+  label: 'Sobre',
+  title: 'Maria Fernanda Dias Faleiro',
+  image: '/images/a33b1c8a-c669-4ecd-951b-d919a66a3f76.jpeg',
+  bio: 'Sou social media e designer. Ajudo marcas a aparecer com consistência, clareza e visual profissional nas redes sociais.',
+  process: [
+    {
+      step: 'Diagnóstico',
+      description: 'Entendo seu negócio, público e objetivos antes de qualquer post ou campanha.',
+    },
+    {
+      step: 'Planejamento',
+      description: 'Defino linha editorial, calendário e identidade visual alinhados à sua marca.',
+    },
+    {
+      step: 'Entrega',
+      description: 'Produzo conteúdo, publico e acompanho resultados com relatórios objetivos.',
+    },
+  ],
+} as const
+
+export const faq = {
+  label: 'Dúvidas',
+  title: 'Perguntas frequentes',
+  items: [
+    {
+      question: 'Quanto custa a gestão de redes sociais?',
+      answer:
+        'O valor varia conforme o escopo — quantidade de posts, stories, anúncios e nível de estratégia. Entre em contato para um orçamento personalizado ao seu negócio.',
+    },
+    {
+      question: 'Em quanto tempo posso começar?',
+      answer:
+        'Após a primeira conversa e alinhamento do briefing, o planejamento costuma ficar pronto em até uma semana. A publicação começa logo em seguida.',
+    },
+    {
+      question: 'Preciso já ter Instagram ou Facebook criados?',
+      answer:
+        'Não necessariamente. Posso orientar na criação e configuração dos perfis, ou trabalhar com contas que você já usa hoje.',
+    },
+    {
+      question: 'Você cria o conteúdo ou só publica?',
+      answer:
+        'Faço o ciclo completo: estratégia, criação visual, textos, publicação e acompanhamento. Você aprova antes de ir ao ar.',
+    },
+    {
+      question: 'Atende apenas negócios da minha cidade?',
+      answer:
+        'Trabalho com foco em negócios locais e campanhas geolocalizadas, mas atendo clientes de qualquer região do Brasil de forma remota.',
+    },
+  ],
+  cta: {
+    title: 'Ainda tem dúvidas? Fale diretamente comigo.',
+    button: 'Falar no WhatsApp',
+  },
 } as const
 
 export const contact = {

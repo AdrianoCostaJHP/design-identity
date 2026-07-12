@@ -1,3 +1,5 @@
+import { AboutSection } from './components/AboutSection'
+import { FaqSection } from './components/FaqSection'
 import { HeroSection } from './components/HeroInteractiveBackground'
 import { ProjectCard } from './components/ProjectCard'
 import { ScrollReveal, StaggerItem, StaggerReveal } from './components/ScrollReveal'
@@ -7,12 +9,11 @@ import {
   VisualIdentityIcon,
 } from './components/ServiceIcons'
 import { InstagramIcon, LinkedInIcon, WhatsAppIcon } from './components/SocialIcons'
-import { WorkGallery } from './components/WorkGallery'
+import { PortfolioSection } from './components/PortfolioSection'
 import {
   site,
   navLinks,
   hero,
-  trust,
   services,
   portfolio,
   contact,
@@ -40,11 +41,6 @@ function serviceColumnClass(index: number, total: number): string {
 function App() {
   const waLink = whatsappHref(site.whatsappNumber, site.whatsappMessage)
 
-  const btnPrimary =
-    'inline-flex items-center justify-center gap-2 rounded-[32px] bg-primary px-6 py-3 text-sm font-medium leading-[1.71] text-on-primary transition-opacity hover:opacity-88'
-  const btnSecondary =
-    'inline-flex items-center justify-center gap-2 bg-transparent px-0 py-2 text-sm font-normal text-ink underline underline-offset-4 transition-opacity hover:opacity-88'
-
   return (
     <div className="text-left font-body text-ink">
       <header className="sticky top-0 z-50 border-b border-hairline bg-white/92 backdrop-blur-sm">
@@ -68,7 +64,7 @@ function App() {
             </ul>
           </nav>
           <div className="justify-self-end md:justify-self-end">
-            <a href={waLink} className={btnPrimary} target="_blank" rel="noreferrer">
+            <a href={waLink} className="btn-primary" target="_blank" rel="noreferrer">
               <WhatsAppIcon />
               {hero.secondaryCta}
             </a>
@@ -90,10 +86,10 @@ function App() {
                 </h1>
                 <p className="m-0 max-w-[52ch] text-lg leading-snug text-body-muted">{hero.lead}</p>
                 <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-6">
-                  <a href="#producao" className={btnPrimary}>
+                  <a href="#portfolio" className="btn-primary">
                     {hero.primaryCta}
                   </a>
-                  <a href={waLink} className={btnSecondary} target="_blank" rel="noreferrer">
+                  <a href={waLink} className="btn-secondary" target="_blank" rel="noreferrer">
                     <WhatsAppIcon />
                     {hero.secondaryCta}
                   </a>
@@ -106,7 +102,7 @@ function App() {
               >
                 <div className="relative aspect-[4/3] overflow-hidden rounded-[22px] bg-soft-stone/80 backdrop-blur-sm">
                   <div className="absolute inset-0 bg-linear-to-br from-pale-green via-soft-stone to-[#e8e4dc]" />
-                  <div className="absolute inset-x-4 bottom-4 rounded-sm bg-primary p-3 px-4 text-xs leading-snug text-on-dark">
+                  <div className="absolute inset-x-4 bottom-4 rounded-sm bg-primary-dark p-3 px-4 text-xs leading-snug text-on-dark">
                     <strong className="mb-1 block text-sm font-medium">Feed + stories</strong>
                     Conteúdo e design alinhados à sua marca
                   </div>
@@ -118,21 +114,6 @@ function App() {
             </div>
           </ScrollReveal>
         </HeroSection>
-
-        <ScrollReveal
-          as="section"
-          className={`${container} border-y border-hairline py-12 text-center`}
-          aria-label={trust.label}
-        >
-          <p className="mb-7 text-sm text-muted">{trust.label}</p>
-          <StaggerReveal as="ul" className="flex list-none flex-wrap justify-center gap-x-14 gap-y-10 p-0">
-            {trust.items.map((item) => (
-              <StaggerItem as="li" key={item} className="text-lg font-medium tracking-[-0.02em] text-primary">
-                {item}
-              </StaggerItem>
-            ))}
-          </StaggerReveal>
-        </ScrollReveal>
 
         <ScrollReveal
           as="section"
@@ -149,7 +130,7 @@ function App() {
               O que faço pelo seu negócio
             </h2>
             <p className="m-0 max-w-[52ch] text-lg leading-snug text-body-muted">
-              Estratégia, execução e visual — tudo pensado para quem atende clientes na região.
+              Estratégia, execução e visual — tudo pensado para impulsionar seu negócio.
             </p>
           </header>
           <StaggerReveal className="grid md:grid-cols-3">
@@ -162,7 +143,7 @@ function App() {
                   className={serviceColumnClass(index, services.length)}
                 >
                   <Icon />
-                  <h3 className="mb-2 text-2xl font-normal leading-snug text-ink">{service.title}</h3>
+                  <h3 className="mb-2 font-display text-2xl font-normal leading-snug text-ink">{service.title}</h3>
                   <p className="m-0 text-body-muted">{service.description}</p>
                 </StaggerItem>
               )
@@ -172,30 +153,25 @@ function App() {
 
         <ScrollReveal
           as="section"
-          id="producao"
-          aria-labelledby="work-gallery-title"
+          id="portfolio"
+          aria-labelledby="portfolio-title"
         >
-          <div className="mx-6 rounded-[22px] bg-deep-green py-20 text-on-dark max-md:mx-0 max-md:rounded-none">
+          <div className="mx-6 rounded-[22px] bg-primary-dark py-20 text-on-dark max-md:mx-0 max-md:rounded-none">
             <div className={container}>
-              <WorkGallery
-                variant="dark"
-                label={portfolio.worksLabel}
-                title={portfolio.worksTitle}
-                lead={portfolio.worksLead}
-              />
+              <PortfolioSection variant="dark" />
             </div>
           </div>
         </ScrollReveal>
 
         <ScrollReveal
           as="section"
-          id="trabalhos"
+          id="projetos"
           className={`${container} py-20`}
-          aria-labelledby="portfolio-title"
+          aria-labelledby="ux-portfolio-title"
         >
           <p className="font-mono text-sm uppercase tracking-[0.28px] text-slate">{portfolio.allLabel}</p>
           <h2
-            id="portfolio-title"
+            id="ux-portfolio-title"
             className="mb-4 max-w-[18ch] font-display text-[clamp(2rem,4vw,3rem)] font-normal leading-tight tracking-[-0.02em] text-primary"
           >
             {portfolio.allTitle}
@@ -212,10 +188,14 @@ function App() {
           </StaggerReveal>
         </ScrollReveal>
 
+        <FaqSection />
+
+        <AboutSection />
+
         <ScrollReveal
           as="section"
           id="contato"
-          className="bg-soft-stone py-20 text-center"
+          className="border-t border-hairline py-20 text-center"
           aria-labelledby="contact-title"
         >
           <div className={container}>
@@ -228,15 +208,15 @@ function App() {
             </h2>
             <p className="mx-auto m-0 max-w-[52ch] text-lg leading-snug text-body-muted">{contact.lead}</p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-x-8 gap-y-6">
-              <a href={waLink} className={btnPrimary} target="_blank" rel="noreferrer">
+              <a href={waLink} className="btn-primary" target="_blank" rel="noreferrer">
                 <WhatsAppIcon />
                 {contact.whatsappCta}
               </a>
-              <a href={site.instagramUrl} className={btnSecondary} target="_blank" rel="noreferrer">
+              <a href={site.instagramUrl} className="btn-secondary" target="_blank" rel="noreferrer">
                 <InstagramIcon />
                 {contact.instagramCta}
               </a>
-              <a href={site.linkedinUrl} className={btnSecondary} target="_blank" rel="noreferrer">
+              <a href={site.linkedinUrl} className="btn-secondary" target="_blank" rel="noreferrer">
                 <LinkedInIcon />
                 {contact.linkedinCta}
               </a>
@@ -245,12 +225,12 @@ function App() {
         </ScrollReveal>
       </main>
 
-      <footer className="bg-primary py-8 text-on-dark">
+      <footer className="bg-primary-dark py-8 text-on-dark">
         <div className={`${container} flex flex-wrap items-center justify-between gap-4 text-xs`}>
-          <p className="m-0 text-muted">
+          <p className="m-0 text-on-dark/65">
             <strong className="font-medium text-on-dark">{site.name}</strong> · {footer.note}
           </p>
-          <p className="m-0 text-muted">{footer.copyright}</p>
+          <p className="m-0 text-on-dark/65">{footer.copyright}</p>
         </div>
       </footer>
     </div>

@@ -1,0 +1,85 @@
+{
+  "basePath": "/images",
+  "entries": [
+    {
+      "id": "6efec2d2-8d11-4c7e-9bb7-8c0c7df6f1d0",
+      "slug": "stories-agenda-cta",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "8f619929-e893-43d1-ad9b-c812d7247948.png",
+      "files": []
+    },
+    {
+      "id": "c3a0cf94-5d74-4302-b2b6-1bceff3b3bcb",
+      "slug": "stories-promo-verao",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "65125d2b-2a56-4825-b64f-f05670ad5a3f.png",
+      "files": []
+    },
+    {
+      "id": "1db9f27d-f4c2-4c75-bd7b-93ebdca6f4e8",
+      "slug": "stories-promo-verao",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "126976cb-eaef-4196-8cd4-97fdabbbbc5e.png",
+      "files": []
+    },
+    {
+      "id": "8c4dfd90-3f27-46fc-a948-1c99cfb96a1f",
+      "slug": "stories-promo-verao",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "5ef10517-466d-42b2-be06-d180cabb025d.jpeg",
+      "files": []
+    },
+    {
+      "id": "7afaa4ec-f0cb-4987-b996-8a3d0d8d5d16",
+      "slug": "stories-promo-verao",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "cd54ab07-b503-4cb8-8a6b-8ac146071273.jpeg",
+      "files": []
+    },
+    {
+      "id": "b5df67cb-cfc5-45f5-a16d-f03fcfd1bc5c",
+      "slug": "stories-promo-verao",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "6304e7da-8d71-431e-9e70-32f62b8f5bb0.jpeg",
+      "files": []
+    },
+    {
+      "id": "0d8d8d4c-37fd-4d5f-a818-6d0f2fd6d96f",
+      "slug": "stories-promo-verao",
+      "type": "post",
+      "layout": "carousel",
+      "cover": "314bbf56-0488-4eed-9fbd-9d70a7360bbf.jpeg",
+      "files": []
+    },
+    {
+      "id": "e42fd8b2-8a55-4d92-b5ef-cc9e9c73a74b",
+      "slug": "stories-promo-verao",
+      "type": "identidade-visual",
+      "layout": "carousel",
+      "cover": "e5b28d4a-7e1c-4a7d-8849-27dd2368702b.jpeg",
+      "files": []
+    },
+    {
+      "id": "91cbde8f-c55d-4ca7-a3af-1f6bbdb5cde0",
+      "slug": "stories-promo-verao",
+      "type": "identidade-visual",
+      "layout": "carousel",
+      "cover": "4e342bb0-f564-4426-9e9a-22d6a92c24de.jpeg",
+      "files": []
+    },
+    {
+      "id": "f87b39d7-06c0-46b6-99d9-6b66a5dd4d70",
+      "slug": "clinica-odonto-vida",
+      "type": "catalogo",
+      "layout": "grid",
+      "cover": "bad2977f-7a6d-4583-be0c-bae98ebf93ab.jpg",
+      "pdf": "eabb5441-77f1-4816-8bea-923760daa8d2.pdf"
+    }
+  ]
+}

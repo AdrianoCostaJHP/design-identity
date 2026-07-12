@@ -100,7 +100,7 @@ function CarouselGallery({
                 type="button"
                 onClick={() => setIndex(thumbIndex)}
                 className={`cursor-pointer overflow-hidden rounded-sm border-2 p-0 transition-colors ${
-                  thumbIndex === index ? 'border-coral' : 'border-transparent'
+                  thumbIndex === index ? 'border-accent-gold' : 'border-transparent'
                 }`}
                 aria-label={`Ver imagem ${thumbIndex + 1}`}
                 aria-current={thumbIndex === index}
@@ -235,7 +235,7 @@ export function WorkModal({ work, works, onClose, onNavigate }: WorkModalProps) 
             <header className="flex shrink-0 items-start justify-between gap-4 border-b border-hairline px-5 py-4 sm:px-8 sm:py-6">
               <div className="min-w-0 pr-2">
                 <div className="mb-2 flex flex-wrap items-center gap-2">
-                  <span className="inline-block rounded-sm border border-coral px-2.5 py-1.5 font-mono text-xs uppercase tracking-[0.28px] text-coral">
+                  <span className="inline-block rounded-sm border border-accent-gold bg-accent-gold/10 px-2.5 py-1.5 font-mono text-xs uppercase tracking-[0.28px] text-primary-dark">
                     {workCategoryLabels[work.category]}
                   </span>
                   <span className="font-mono text-xs uppercase tracking-[0.28px] text-muted">{work.year}</span>

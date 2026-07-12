@@ -16,6 +16,8 @@ export type WorkItem = {
   tags: string[]
   year: number
   featured?: boolean
+  /** Quando definido, o card abre o PDF em nova aba do navegador */
+  pdfUrl?: string
 }
 
 export type WorksData = {

@@ -4,10 +4,9 @@ Estrutura de imagens — Produção visual
 Cada projeto tem sua pasta:
 
   public/works/{slug}/
-    cover.svg   → substitua por cover.webp (ou .jpg)
-    01.svg      → substitua por 01.webp
-    02.svg      → ...
-    ...
+    cover.*   → capa do card no carrossel
+    *.pdf     → arquivo PDF (identidades e catálogos — abre em nova aba)
+    01.*      → imagens da galeria de posts (02.*, 03.*, …)
 
 Pasta de produção real (carrossel):
   public/works/producao-visual/
@@ -25,7 +24,7 @@ Projetos atuais:
 
 Depois de adicionar as imagens reais:
   1. Coloque os arquivos na pasta do projeto
-  2. Atualize src/data/works.json trocando .svg por .webp (ou .jpg)
+  2. Atualize src/data/works.json (coverImage, images e pdfUrl quando for PDF)
   3. Remova os .svg placeholder se quiser
 
 Formato recomendado: WebP

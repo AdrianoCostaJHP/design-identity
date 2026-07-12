@@ -58,7 +58,7 @@ export function CatalogCard({ image }: CatalogCardProps) {
         />
 
         <div className="pointer-events-none absolute inset-x-0 bottom-0 p-4">
-          <span className="inline-block rounded-sm border border-coral px-2 py-1 font-mono text-[10px] uppercase tracking-[0.28px] text-coral">
+          <span className="inline-block rounded-sm border border-accent-gold bg-accent-gold/10 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.28px] text-primary-dark">
             Catálogo PDF
           </span>
           <p className="mt-2 mb-0 line-clamp-2 text-sm leading-snug font-medium text-on-dark">{image.alt}</p>

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState, type MouseEvent } from 'react'
 import type { ImageRatio, PortfolioImage } from '../types/image'
 import { isPdfSrc } from '../utils/media'
 import { CatalogCard } from './CatalogCard'
@@ -29,16 +29,11 @@ function ChevronIcon({ direction }: { direction: 'left' | 'right' }) {
   )
 }
 
-function ExpandIcon() {
+function MagnifyIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden>
-      <path
-        d="M4 12v4h4M16 8V4h-4M16 16h-4v-4M4 4h4v4"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>
+      <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" strokeWidth="2" />
+      <path d="M13 13l4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
     </svg>
   )
 }
@@ -51,12 +46,23 @@ function ImageCarouselSlide({
   onOpen: (id: string) => void
 }) {
   const aspect = ratioClass[image.ratio ?? 'portrait']
+  const [cursor, setCursor] = useState<{ x: number; y: number } | null>(null)
+
+  function handleMouseMove(event: MouseEvent<HTMLButtonElement>) {
+    const rect = event.currentTarget.getBoundingClientRect()
+    setCursor({
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top,
+    })
+  }
 
   return (
     <button
       type="button"
       onClick={() => onOpen(image.id)}
-      className="group relative block h-full w-full cursor-pointer overflow-hidden rounded-[18px] border-0 bg-black/10 p-0 shadow-lg transition-shadow duration-300 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white/70"
+      onMouseMove={handleMouseMove}
+      onMouseLeave={() => setCursor(null)}
+      className="group relative block h-full w-full cursor-pointer overflow-hidden rounded-[18px] border-0 bg-black/10 p-0 shadow-lg transition-shadow duration-300 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white/70 [@media(pointer:fine)]:cursor-none"
       aria-label={`Ampliar: ${image.alt}`}
     >
       <div className={`relative ${aspect} w-full overflow-hidden`}>
@@ -70,8 +76,17 @@ function ImageCarouselSlide({
           className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/35 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100"
           aria-hidden
         />
-        <span className="pointer-events-none absolute right-3 bottom-3 flex h-9 w-9 items-center justify-center rounded-full bg-white/90 text-ink opacity-0 shadow-sm transition-all duration-300 group-hover:opacity-100 group-focus-visible:opacity-100">
-          <ExpandIcon />
+        {cursor && (
+          <span
+            className="pointer-events-none absolute z-10 flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#3a4849] text-white shadow-md [@media(pointer:coarse)]:hidden"
+            style={{ left: cursor.x, top: cursor.y }}
+            aria-hidden
+          >
+            <MagnifyIcon />
+          </span>
+        )}
+        <span className="pointer-events-none absolute right-3 bottom-3 flex h-9 w-9 items-center justify-center rounded-full bg-[#3a4849] text-white opacity-0 shadow-sm transition-all duration-300 group-focus-visible:opacity-100">
+          <MagnifyIcon />
         </span>
       </div>
     </button>

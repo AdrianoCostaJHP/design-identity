@@ -2,7 +2,7 @@ type IconProps = {
   className?: string
 }
 
-const serviceIconClass = 'mb-5 h-10 w-10 text-deep-green'
+const serviceIconClass = 'mb-5 h-10 w-10 text-accent-gold'
 
 export function SocialManagementIcon({ className = serviceIconClass }: IconProps) {
   return (

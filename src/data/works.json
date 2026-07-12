@@ -79,7 +79,8 @@
       "shortDescription": "Catálogo digital de produtos para padaria de bairro.",
       "tags": ["catálogo", "produtos", "cardápio"],
       "year": 2024,
-      "featured": false
+      "featured": false,
+      "pdfUrl": "/works/catalogo-padaria-bairro/catalogo.pdf"
     },
     {
       "id": "clinica-odonto-vida",
@@ -99,7 +100,8 @@
       "shortDescription": "Identidade visual e templates para clínica odontológica.",
       "tags": ["identidade", "saúde", "marca"],
       "year": 2024,
-      "featured": false
+      "featured": false,
+      "pdfUrl": "/works/clinica-odonto-vida/identidade.pdf"
     },
     {
       "id": "restaurante-sabor-praia",
@@ -143,7 +145,8 @@
       "shortDescription": "Identidade visual e posts para boutique de moda.",
       "tags": ["identidade", "moda", "editorial"],
       "year": 2025,
-      "featured": false
+      "featured": false,
+      "pdfUrl": "/works/boutique-estilo-urbano/identidade.pdf"
     }
   ]
 }

@@ -11,3 +11,7 @@ export function downloadPdf(src: string, filename?: string): void {
   link.click()
   document.body.removeChild(link)
 }
+
+export function openPdfInNewTab(src: string): void {
+  window.open(src, '_blank', 'noopener,noreferrer')
+}
